@@ -1,0 +1,82 @@
+body{background-color: #57B8FF ;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;}
+
+header{width: 100%;
+font-family: 'Mirza', cursive;
+background-color: #246AB6;
+padding: 0.5%;
+position: fixed;}
+
+.navegacion ul{
+	list-style: none;}
+
+.menu > li{
+	position: relative;
+	display: inline-block;}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: white;
+	text-decoration: none;}
+
+.menu li a:hover{
+	color: black;}
+
+/* Submenu*/
+.submenu{background-color: #3478C2 ;
+	position: absolute;
+	width: 100%;
+	visibility: hidden;
+	text-align: left;
+	padding-left: 5%}
+
+.menu li:hover .submenu{
+	visibility: visible;} /* desde el "*" hasta acá es un código sacado en https://www.youtube.com/watch?v=3mdQuS8VHKg*/
+
+.menu li a{color: #F2EBF0;}
+
+main{padding-left: 5%;
+	padding-right: 5%;
+	background-color: #B4DFFF;
+	margin: 8%;
+	border-radius: 30px;}
+
+p{font-family: 'Average Sans', sans-serif;
+	font-size: 150%}
+
+article h1{font-family: 'Mirza', cursive;
+	font-size: 300%}
+article h2{font-family: 'Average Sans', sans-serif;}
+
+article h3{font-family: 'Mirza', cursive;
+font-size: 550%}
+
+#foto{padding: 3%; 
+	margin-right: 60px;
+	margin-left:60px ; 
+	float: left; 
+	width: 45%; }
+
+#info-espe li{font-family: 'Average Sans', sans-serif;
+	font-size: 150%;}
+
+#info-espe div{margin-right: 60px}
+
+#referencias h2{font-size: 120%}
+
+#referencias p{font-size: 110%}
+
+footer{width: 100%;
+padding: 2%; background-color: #246AB6;}
+
+
+
+
