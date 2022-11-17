@@ -43,6 +43,19 @@ position: fixed;}
 
 .menu li a{color: #F2EBF0;}
 
+.submenu a:link, a:visited {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+} /* código sacado en https://www.w3schools.com/css/tryit.asp?filename=trycss_link_advanced2*/
+
+.submenu a:hover, a:active {
+  background-color: #57B8FF;
+  color: black;
+} /* código sacado en https://www.w3schools.com/css/tryit.asp?filename=trycss_link_advanced2*/
+
+#otro a:hover{size: 60%}
+
 main{padding-left: 5%;
 	padding-right: 5%;
 background-color: #B4DFFF;
